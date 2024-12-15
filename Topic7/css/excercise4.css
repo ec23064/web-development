@@ -1,0 +1,53 @@
+form{
+    background-color: rgb(195, 239, 195);
+    border: 0.1em solid;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+section{
+    border: 0.1em solid;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+legend{
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+    padding: 0.5%;
+    font-size: 1.5em;
+}
+select, input{
+    border: 0.05em solid;
+    margin-bottom: 1%;
+}
+
+.button{
+    background-color: green;
+    color: white;
+    width: 20%;
+    padding: 2%;
+    border-radius: 10%;
+    font-size: 1.1em;
+
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.footer{
+    border: none;
+    background-color: white;
+}
+
+.keep-informed{
+    margin-left: 1%;
+    word-spacing: 0.1em;
+}
+

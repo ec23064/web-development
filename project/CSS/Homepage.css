@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(84, 83, 83);
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-family: "Bitter", serif;
+}
+
+/* Navigation Styles */
+nav ul{
+    display: flex;
+    width: 100%;
+}
+
+nav li{
+    margin-right: 2.5%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.4em;
+    height: 3em;
+    margin-left: 1%;
+}
+
+/* Logo Styles */
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Button Styles */
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    height: 7%;
+}
+
+/* Footer Styles */
+footer{
+    font-size: 0.8em;
+    padding: 1%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    margin-bottom: 1%;
+}

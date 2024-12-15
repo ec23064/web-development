@@ -1,0 +1,9 @@
+@import url(excercise2_s2.css);
+
+div, #cool, .shiny, a:hover{
+    background-color: silver;
+}
+
+strong, p, ul{
+    font-size: 24pt;
+}

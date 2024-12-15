@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(84, 83, 83);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 4;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-family: "Bitter", serif;
+}
+
+/* Navigation Styles */
+nav ul {
+    display: flex;
+    width: 100%;
+}
+
+nav li {
+    margin-right: 2.5%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.4em;
+    height: 3em;
+    margin-left: 1%;
+}
+
+/* Writing Styles */
+h1 {
+    font-size: 1.5em;
+    color: darkblue;
+    font-weight: bold;
+    margin-bottom: 2%;
+    font-family: "Solway", serif;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+/* Image Styles */
+.picture {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(16, 0, 105);
+}
+
+.picture img {
+    max-height: 500px;
+}
+
+figcaption {
+    font-size: 1.2em;
+}
+
+/* Education Section Styles */
+.education {
+    grid-row: 4;
+    grid-column: span 2;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+.education article {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    gap: 10%;
+    justify-content: center;
+}
+
+#reishit{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#queen-mary{
+    grid-row: 1;
+    grid-column: 3;
+
+}
+
+/* Other Styles */
+header {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3%;
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.about {
+    grid-row: 2;
+    grid-column: 1;
+    text-align: center;
+}
+/* Footer Styles */
+footer {
+    grid-row: 5;
+    grid-column: span 2;
+    padding: 2%;
+    margin-top: 2%;
+    font-size: 0.8em;
+}
+
+footer hr {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="alaternative stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/excercise4.css" type="text/css">
+    <script src="javascript/excercise4.js"></script>
+</head>
+<body>
+    <form action="https://drusmannaeem.co.uk/process.php" method="GET">
+        <fieldset>
+            <legend>Shirt Order Form</legend>
+
+            <section>
+                <label>Shirt Size</label><br>
+                <select name="Shirt Size">
+                    <option>XS</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                </select><br>
+
+                <label>Sleeves</label><br>
+                <input type="radio" name="sleeves" value="short">Short<br>
+                <input type="radio" name="sleeves" value="long">Long<br>
+
+                <label>Choose Shirt Colour</label><br>
+                <input type="color" name="shirt colour"><br>
+
+                <label>Quantity</label><br>
+                <input type="number" name="quantity" min="1" max="10"><br>
+
+                <label>Date Requested</label><br>
+                <input type="date" name="date requested"><br>
+
+            </section>
+
+            <section>
+                <label>Name</label><br>
+                <input type="text" name="name"><br>
+
+                <label>Email Address</label><br>
+                <input type="email" name="email"><br>
+
+                <label>Telephone</label><br>
+                <input type="tel" name="telephone" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="44-207-882-1234"><br>
+
+            </section>
+
+            <section>
+
+                
+                <label>Address</label><br>
+                <input type="text" name="address"><br>
+
+                <label for="city">City</label><br>
+                <input type="text" name="city" list="cities">
+                <datalist id="cities">
+                    <option value="New York">
+                    <option value="London">
+                    <option value="Tokyo">
+                    <option value="Paris">
+                </datalist><br>
+
+                <label>Postcode</label><br>
+                <input type="text" id="postcode" name="postcode">
+            </section>
+
+            <section class="footer">
+                <div class="keep-informed">
+                    <label for="keep-informed">Please keep me informed about future shirt offerings</label>
+                    <input type="checkbox" name="keep informed">
+                </div>
+                <div class="button-container">
+                    <input class="button" type="submit" value="Submit">
+                    <input class="button" type="reset" value="Clear Forms">
+                </div>
+            </section>
+
+        </fieldset>
+    </form>
+</body>
+</html>

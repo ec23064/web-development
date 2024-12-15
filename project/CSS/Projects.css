@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(84, 83, 83);
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-family: "Bitter", serif;
+}
+
+/* Navigation Styles */
+nav ul {
+    display: flex;
+    width: 100%;
+}
+
+nav li {
+    margin-right: 2.5%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.4em;
+    height: 3em;
+    margin-left: 1%;
+}
+
+/* Heading Styles */
+h1 {
+    font-weight: bolder;
+    color: darkblue;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 7%;
+    font-family: "Solway", serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 1%;
+}
+
+/* Article Styles */
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+img {
+    max-width: 600px;
+    margin-top: 4%;
+}
+
+/* Footer Styles */
+hr {
+    margin-bottom: 1%;
+}
+
+footer {
+    margin-top: 4%;
+    padding: 2%;
+    font-size: 0.7em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}

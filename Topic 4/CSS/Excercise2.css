@@ -1,0 +1,57 @@
+table{
+    align-self: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td{
+    vertical-align: middle;
+}
+
+th{
+    font-weight: bolder;
+    font-size: 1.2em;
+    background-color: lightgray;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10%;
+    margin: 0 auto;
+}
+
+caption{
+    background-color: darkred;
+    font-size: 2em;
+    color: white;
+    padding: 2%;
+    font-weight: bolder;
+}
+
+.main td, th{
+    border: 0.1em solid;
+}
+
+.inner img{
+    width: 80%;
+    height: 80%;
+}
+
+.inner{
+    width: 100%;
+    height: 100%;
+}
+
+.cast {
+    width: 50%;
+}
+
+.movie{
+    width: 20%;
+}
+
+.cars{
+    height: 15%
+}

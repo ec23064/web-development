@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="alaternative stylesheet" href="/CSS/reset.css" type="text/css">
+    <link rel="stylesheet" href="/CSS/Login.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Glegoo:wght@400;700&family=Khand:wght@300;400;500;600;700&family=Strait&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Glegoo:wght@400;700&family=Khand:wght@300;400;500;600;700&family=Solway:wght@300;400;500;700;800&family=Strait&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Experience.html">Experience</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="ViewBlog.php">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="login.php" method="POST">
+        <legend>Login</legend>
+
+        <label>Email</label><br>
+        <input type="email" name="Email" required><br>
+
+        <label>Password <br> (Must be at least 8 characters with one uppercase letter)</label><br>
+        <input type="password" name="Password" minlength="8" pattern="(?=.*[A-Z]).*" required><br>
+           
+
+        <div class="button-container">
+            <input class="button" type="submit" value="Submit">
+            <input class="button" type="reset" value="Clear Forms">
+        </div>
+    </form>
+    
+    <footer>
+        <hr>
+        <div class="footer">
+            <p>Copywright Joshua Benisty</p>
+            <p>Phone: <a href="tel:+447599043886">+44 7599043886</a> Email: <a href="mailto:jbenisty2003@gmail.com">jbenisty2003@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>

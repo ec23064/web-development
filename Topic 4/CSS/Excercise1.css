@@ -1,0 +1,25 @@
+table, th, td{
+    border: 0.025em solid black;
+    border-collapse: separate;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-spacing: 2%;
+}
+
+th{
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+} 
+
+caption{
+    background-color: rgb(3, 113, 117);
+    font-weight: bolder;
+    padding: 2.5%;
+    font-size: 1.3em;
+}
+
+.grey.header-row th,
+.grey td {
+    background-color: lightgrey;
+}

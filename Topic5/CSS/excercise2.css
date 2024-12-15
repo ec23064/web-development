@@ -1,0 +1,162 @@
+body{
+    display: grid;
+    grid-template-columns: 5, auto;
+    grid-template-rows: 5, auto;
+    font-size: 1.3em;
+    gap: 1rem;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    font-family: "Play", sans-serif;;
+}
+
+header{
+    background-color: darkgreen;
+    display: flex;
+    color: lightgrey;
+    grid-column: span 5;
+    justify-content: space-between;
+    padding: 2%;
+    font-family: "Quicksand", sans-serif;
+    
+}
+
+nav{
+    list-style: none;
+    align-self: center;
+    font-weight: 500;
+    word-spacing: 1em;
+    width: 40%;
+    color: white;
+    font-size: 1.3em;
+}
+
+h2{
+    margin: 0;
+    font-size: 1.2em;
+}
+
+h3{
+    background-color: darkgreen;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 1em;
+    font-family: "Staatliches", sans-serif;
+}
+
+ul, li{
+    list-style: none;
+    padding: 1%;
+    margin: 0;
+}
+
+footer{
+        background-color: darkgreen;
+        grid-row: 5;
+        color: white;
+        font-size: small;
+        padding: 3%;
+        text-align: center;
+}
+
+aside{
+    background-color: rgb(238, 238, 238);
+}
+
+p{
+    margin: 0;
+}
+
+
+.white-box{
+    background-color: white;
+    margin: 5%;
+}
+
+.rankings-grid{
+    display: grid;
+    grid-template-columns: 2, auto;
+    grid-template-rows: 3, auto;
+}
+
+#html{
+    grid-column: 2;
+}
+
+#myself{
+    display: flex;
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+#research{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgba(246, 207, 134, 0.3);
+    color: rgb(135, 88, 0);
+}
+
+#list{
+    grid-row: 3;
+    grid-column: 1;
+    color: green;
+}
+
+#top3{
+    grid-row: 4;
+}
+
+#hobbies{
+    grid-column: 5;
+    grid-row: 2;
+    padding: 2%;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+}
+
+#movies{
+    grid-column: 5;
+}
+
+#education{
+    grid-column: span 3;
+}
+
+#nav-bar li{
+    display: inline;
+}
+
+
+#years{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+#one{
+    grid-column: 1;
+}
+
+#second{
+    grid-column: 1;
+}
+
+#jfs{
+    grid-column: 2;
+}
+
+#me{
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    padding: 3%;
+}
+
+
+#hobbies, #movies {
+    width: 100%;
+    padding: 3%; 
+}
+  
+.white-box {
+    padding: 20px; 
+}

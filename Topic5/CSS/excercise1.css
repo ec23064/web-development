@@ -1,0 +1,82 @@
+header{
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+hr{
+    border: 0.1em solid lightgreen;
+    margin: 0%;
+}
+
+figure{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 5%;
+}
+
+figcaption{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+
+p{
+    font-size: 1.5em;
+    margin-top: 0%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.main{
+    background-color: lightgrey;
+    padding-top: 3%;
+}
+
+.attraction{
+    display: flex;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.picures{
+    max-height: 700px;
+}
+
+.rank{
+    height: 5em;
+    width: 5em;
+    position: absolute;
+}
+
+.footers{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+#related{
+    width: 30%;
+}
+
+#about{
+    width: 70%;
+}

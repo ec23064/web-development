@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(84, 83, 83);
+    display: grid;
+    grid-template-columns: 2fr 0.1fr 0.9fr;
+    grid-template-rows: 4;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-family: "Bitter", serif;
+}
+
+/* Navigation Styles */
+nav ul {
+    display: flex;
+    width: 100%;
+}
+
+nav li {
+    margin-right: 2.5%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.4em;
+    height: 3em;
+    margin-left: 1%;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 3%;
+    font-weight: bolder;
+    color: darkblue;
+    font-family: "Solway", serif;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 1.4em;
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-family: "Solway", serif;
+}
+
+/* Section and Div Styles */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    font-size: 1.3em;
+}
+
+section p {
+    margin-top: 5%;
+}
+
+section div {
+    flex-basis: 35%;
+    margin-bottom: 5%;
+    padding: 2%;
+    border: dotted darkblue 0.15em;
+}
+
+.experience{
+    padding: 1%;
+}
+
+/* Aside Styles */
+aside {
+    text-align: center;
+    grid-column: 3;
+}
+
+aside img {
+    margin-top: 10%;
+    width: 80%;
+}
+
+aside li {
+    margin-bottom: 3%;
+    font-size: 1.2em;
+}
+
+/* Grid Styles */
+header {
+    grid-row: 1;
+    grid-column: span 3;
+}
+
+#divider {
+    grid-column: 2;
+}
+
+/* Footer Styles */
+footer {
+    grid-row: 3;
+    grid-column: span 3;
+    margin-top: 4%;
+    padding: 2%;
+    font-size: 0.8em;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    margin-bottom: 1%;
+}
+

@@ -1,0 +1,38 @@
+table{
+    border: 0.01em solid;
+}
+caption{
+    background-color: rgb(255, 77, 175);
+    font-style: italic ;
+    font-weight: bolder;
+    border: 0.01em solid;
+    font-size: 1.2em;
+}
+
+th{
+    background-color: pink;
+    color: rgb(100, 100, 100);
+    font-weight: bolder;
+}
+
+th, td{
+    border: 0.05em solid;
+    text-align: center;
+    width: 2.2em;
+    height: 2em;
+    vertical-align: middle;
+}
+
+.dec{
+    text-align: left;
+    padding-left: 2%;
+}
+
+.feb{
+    text-align: right;
+    padding-right: 2%;
+}
+
+.empty{
+    background-color: rgb(236, 233, 233);
+}

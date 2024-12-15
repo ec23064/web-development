@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    order: 1;
+}
+
+.about{
+    order: 2;
+    margin-bottom: 5%;
+}
+
+.picture{
+    order: 3;
+}
+
+.education{
+    order: 4;
+    margin-bottom: 5%;
+}
+
+footer{
+    order: 5;
+}
+
+.education img{
+    width: 80%;
+}
+
+footer{
+    order: 5;
+}
+

@@ -1,0 +1,89 @@
+body{
+    background-color: silver;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header{
+    align-self: center;
+    background-color: darkgrey;
+    color: darkblue;
+}
+
+div{
+    border: dotted darkblue;
+    margin-top: 4%;
+    background-color: rgba(5, 2, 110, 0.201);
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: underline;
+    color: rgb(9, 66, 1);
+}
+
+nav{
+    background-color: rgba(73, 67, 67, 0.522);
+    padding-top: 1%;
+}
+
+figcaption{
+    opacity: 0.6;
+}
+
+article, section{
+    margin-top: 2%
+}
+
+footer{
+    background-color: darkgrey;
+    margin-top: 2%;
+    color: rgb(42, 0, 91);
+}
+
+small{
+    font-size: small;
+}
+
+.pages{
+    display: inline;
+    color: rgb(102, 0, 255);
+    margin-right: 1.5%;
+}
+
+.link:hover, .pages:hover{
+    color: white;
+}
+
+.about{
+    padding-top: 0%;
+}
+
+.description{
+    font-size: 1.1em;
+    margin-top: 1%;
+}
+
+.me{
+    width: 40%;
+    height: 320%;
+}
+
+.link{
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer_writing{
+    line-height: 1.5;
+}
